@@ -1,7 +1,7 @@
 # ShopFlow: A SOLID & Clean Architecture Example in Python
 
 A real-world example demonstrating **SOLID principles** and **Clean Architecture** in Python — built specifically for the book  
-**["SOLID Principles in Python: A Hands-On Guide for All Developers"](https://github.com/fernandoantunes/shopflow)**  
+**["SOLID Principles in Python: A Hands-On Guide for All Developers"]
 by **Fernando Antunes de Magalhães**.
 
 ---
