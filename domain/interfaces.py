@@ -18,3 +18,7 @@ class INotificationSender(ABC):
     @abstractmethod
     def send_confirmation(self, email: str, order_id: str) -> None:
         pass
+
+class IPaymentProcessor(ABC):
+    @abstractmethod
+    def process(self, amount: float, details: dict) -> bool: ...

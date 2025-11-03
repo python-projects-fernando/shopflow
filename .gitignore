@@ -13,6 +13,9 @@ __pycache__/
 # Ignore commit_msg.txt
 commit_msg.txt
 
+# Ignore shopflow.db
+shopflow.db
+
 # Ignore local configuration files
 *.local
 *.env
