@@ -1,9 +1,9 @@
-feat(domain): define core entities and interfaces for ShopFlow
+feat(application): implement PlaceOrderUseCase with clean dependencies
 
-- Add Customer, OrderItem, and Order as dataclasses in domain/entities.py
-- Define IOrderRepository and INotificationSender abstract interfaces
-- Use built-in generics (list) instead of typing.List
-- Remove unused imports and simplify type hints
-- Structure domain layer with zero external dependencies
+- Add PlaceOrderUseCase in application/use_cases.py
+- Orchestrate order creation using Customer and Order entities
+- Depend only on domain abstractions (IOrderRepository, INotificationSender)
+- Respect aggregate boundaries: fetch Customer by ID from separate aggregate
+- Use built-in list generics and remove unused imports
 
-Establishes the foundation for SOLID + Clean Architecture implementation in Chapter 6.
+Completes application layer with pure business logic, ready for dependency injection.

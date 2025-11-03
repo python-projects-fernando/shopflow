@@ -10,6 +10,9 @@ __pycache__/
 *.pyd
 *.py.class
 
+# Ignore commit_msg.txt
+commit_msg.txt
+
 # Ignore local configuration files
 *.local
 *.env
