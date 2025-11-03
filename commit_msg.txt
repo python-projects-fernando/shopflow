@@ -1,0 +1,9 @@
+feat(domain): define core entities and interfaces for ShopFlow
+
+- Add Customer, OrderItem, and Order as dataclasses in domain/entities.py
+- Define IOrderRepository and INotificationSender abstract interfaces
+- Use built-in generics (list) instead of typing.List
+- Remove unused imports and simplify type hints
+- Structure domain layer with zero external dependencies
+
+Establishes the foundation for SOLID + Clean Architecture implementation in Chapter 6.
