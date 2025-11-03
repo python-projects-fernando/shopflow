@@ -1,5 +1,5 @@
 from abc import ABC, abstractmethod
-from entities import Order, Customer
+from .entities import Order, Customer
 
 class IOrderRepository(ABC):
     @abstractmethod
