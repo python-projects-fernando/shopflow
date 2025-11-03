@@ -1,9 +1,0 @@
-feat(application): implement PlaceOrderUseCase with clean dependencies
-
-- Add PlaceOrderUseCase in application/use_cases.py
-- Orchestrate order creation using Customer and Order entities
-- Depend only on domain abstractions (IOrderRepository, INotificationSender)
-- Respect aggregate boundaries: fetch Customer by ID from separate aggregate
-- Use built-in list generics and remove unused imports
-
-Completes application layer with pure business logic, ready for dependency injection.
