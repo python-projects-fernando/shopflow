@@ -1,6 +1,10 @@
 # ShopFlow: A SOLID & Clean Architecture Example in Python
 
-A real-world example demonstrating SOLID principles and Clean Architecture in Python — built specifically for the book  
+<p align="center">
+  <img src="docs/images/book-cover.jpg" alt="Book Cover" width="200" height="250">
+</p>
+
+A real-world example demonstrating SOLID principles and Clean Architecture in Python, built specifically for the book  
 **["SOLID Principles in Python: A Hands-On Guide for All Developers"](https://a.co/d/bV2MkGJ)**  
 by **Fernando Antunes de Magalhães**.
 
@@ -8,14 +12,23 @@ by **Fernando Antunes de Magalhães**.
 
 ## What is ShopFlow?
 
-ShopFlow is a minimal yet realistic order-processing system designed to illustrate how core software design principles translate into clean, maintainable, and testable code. Unlike toy examples, ShopFlow models a cohesive slice of a real e-commerce backend—including order creation, inventory checks, payment processing, and SMS/E-mail notifications—while strictly adhering to:
+ShopFlow is a minimal yet realistic order-processing system designed to illustrate how core software design principles translate into clean, maintainable, and testable code. Unlike toy examples, ShopFlow models a cohesive slice of a real e-commerce backend—including order creation, inventory checks, payment processing, and SMS/E-mail notifications and strictly adhering to:
 
 - SOLID design principles  
 - Clean Architecture layering (`domain`, `application`, `infrastructure`)  
 - Explicit dependency inversion and interface segregation  
 - Full testability with `pytest`
 
-This project serves as a companion to the book, showing both correct implementations and common violations—with clear explanations of why design choices matter in practice.
+This project serves as a companion to the book, showing both correct implementations and common violations, with clear explanations of why design choices matter in practice.
+
+---
+## Architecture
+
+### Application Architecture
+
+This diagram illustrates the high-level structure of the ShopFlow application.
+
+![ShopFlow Architecture](docs/diagrams/architecture/diagram.png) 
 
 ---
 
@@ -86,7 +99,7 @@ python -m pytest tests/
 
 ## About the Book
 
-**"SOLID Principles in Python: A Hands-On Guide for All Developers"** is a practical guide for developers at any level who want to write robust, scalable, and maintainable Python applications. Through realistic examples like ShopFlow, the book bridges theory and practice—helping you recognize anti-patterns, refactor legacy code, and build systems that evolve gracefully.
+**"SOLID Principles in Python: A Hands-On Guide for All Developers"** is a practical guide for developers at any level who want to write robust, scalable, and maintainable Python applications. Through realistic examples like ShopFlow, the book bridges theory and practice, helping you recognize anti-patterns, refactor legacy code, and build systems that evolve gracefully.
 
 **Perfect for**:  
 - Python developers tired of “tutorial hell”  
