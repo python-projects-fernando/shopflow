@@ -1,4 +1,3 @@
-```markdown
 # ShopFlow: A SOLID & Clean Architecture Example in Python
 
 A real-world example demonstrating SOLID principles and Clean Architecture in Python — built specifically for the book  
@@ -20,7 +19,7 @@ This project serves as a companion to the book, showing both correct implementat
 
 ---
 
-## 🚀 Getting Started
+## Getting Started
 
 ### 1. **Activate your virtual environment (recommended)**
 
@@ -61,14 +60,14 @@ python main.py
 ```
 
 On first run, the system automatically creates a SQLite database file:  
-✅ **`shopflow.db`**
+**`shopflow.db`**
 
 This file stores:
 - Sample products (`Laptop`, stock: 10)  
 - A test customer (`cust_123`, email: `user@example.com`)  
 - Any orders you place during testing
 
-> 🔍 **Want to inspect the data?**  
+> **Want to inspect the data?**  
 > Open `shopflow.db` with [DB Browser for SQLite](https://sqlitebrowser.org/) (free and open-source).
 
 ---
@@ -81,26 +80,25 @@ All tests are isolated and fast (no real DB or email):
 python -m pytest tests/
 ```
 
-> ⚠️ Always use `python -m pytest` (not just `pytest`) to ensure correct package resolution.
+> Always use `python -m pytest` (not just `pytest`) to ensure correct package resolution.
 
 ---
 
-## 📚 About the Book
+## About the Book
 
 **"SOLID Principles in Python: A Hands-On Guide for All Developers"** is a practical guide for developers at any level who want to write robust, scalable, and maintainable Python applications. Through realistic examples like ShopFlow, the book bridges theory and practice—helping you recognize anti-patterns, refactor legacy code, and build systems that evolve gracefully.
 
-👉 **Perfect for**:  
+**Perfect for**:  
 - Python developers tired of “tutorial hell”  
 - Engineers transitioning from Java/C#  
 - Teams adopting Clean Architecture  
 - Anyone who believes **clean code is a professional responsibility**
 
-🔗 **Get the book**: https://a.co/d/bV2MkGJ
+**Get the book**: https://a.co/d/bV2MkGJ
 
 ---
 
-## 📝 License
+## License
 
 © 2025 Fernando Antunes de Magalhães  
 For educational and reference use. Code may be reused with attribution.
-```
