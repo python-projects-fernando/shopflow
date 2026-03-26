@@ -1,8 +1,13 @@
 # ShopFlow: A SOLID & Clean Architecture Example in Python
 
 <p align="center">
-  <img src="docs/images/book-cover.jpg" alt="Book Cover" width="200" height="250">
+  <a href="https://a.co/d/0eOmzjgZ">
+    <img src="docs/images/book-cover.jpg" alt="SOLID Principles in Python Book Cover" width="200">
+  </a>
+  &nbsp;&nbsp;&nbsp;&nbsp;
+  <img src="https://assets.zyrosite.com/AQEZkE43zXtgRjLB/shopflow-logo-0WiqZZ9KsHWBuEpY.png" alt="ShopFlow Logo" width="200">
 </p>
+
 
 A real-world example demonstrating SOLID principles and Clean Architecture in Python, built specifically for the book  
 **["SOLID Principles in Python: A Hands-On Guide for All Developers"](https://a.co/d/bV2MkGJ)**  
