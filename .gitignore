@@ -49,3 +49,6 @@ htmlcov/
 
 # Ignore Windows system files
 Thumbs.db
+
+# Commit messages
+commit_msg.txt
